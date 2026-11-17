@@ -20,8 +20,6 @@ export default async function LoginPage({
         <p className="text-center text-xs text-muted-foreground">
           Demo admin: <code className="font-mono">admin123</code>
         </p>
-      }
-    
       {registered && (
         <p role="status" className="mb-5 rounded-lg bg-primary/10 px-3 py-2 text-sm text-primary">
           Akun berhasil dibuat. Silakan masuk.
